@@ -7,7 +7,7 @@ database:
   username: root
   password:
   schema: jforum
-  table_prefix: jforum_ # Change this, if your forum is using a different prefix. Usually all table names start with phpbb_
+  table_prefix: jforum_ # Change this, if your forum is using a different prefix. Usually all table names start with jforum_
   batch_size: 1000 # Don't change this unless you know what you're doing. The default (1000) should work just fine.
 
 import:
@@ -56,7 +56,7 @@ import:
   private_messages: true
   polls: true
 
-  # When true: each imported user will have the original username from phpBB as its name
+  # When true: each imported user will have the original username from jforum as its name
   # When false: the name of each imported user will be blank unless the username was changed during import
   username_as_name: false
 
